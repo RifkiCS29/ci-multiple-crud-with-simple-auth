@@ -66,5 +66,25 @@ or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 Acknowledgement
 ***************
 
+## How To Install this Project
+
+- Persiapan
+  Memiliki Web Server (misal XAMPP) dengan PHP minimal versi 5.6.
+
+Langkah-Langkah
+1. Download Source Code dari repo Github ci-crud-with-simple-auth dalam bentuk Zip.
+2. Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, misal htdocs/ci-multiple-crud-with-simple-auth.
+3. Import Database yang telah disediakan dengan nama ci-crud.
+4. Setting koneksi database di file database.php dalam folder application\config\database.php
+   <br>'hostname' => 'localhost',
+   <br>'username' => 'root',
+   <br>'password' => '',
+   <br>'database' => 'ci_crud_multiple',
+5. Alamat url dapat diakses pada http://localhost/ci-multiple-crud-with-simple-auth. Berikut email dan password:
+    <br>EMAIL = rifki@admin.com
+    <br>PASSWORD = admin
+
+SEKIAN PENJELASAN DARI SAYA, TERIMAKASIH. Created by <b>RIFKI</b>
+
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
